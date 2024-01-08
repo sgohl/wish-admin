@@ -1,6 +1,8 @@
 # wish-admin
 
-This is a plugin for wiSH (https://github.com/sgohl/wiSH)
+admin plugin for wiSH (https://github.com/sgohl/wiSH)
+
+- roles and role management ui
 
 ## install
 
