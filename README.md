@@ -2,7 +2,7 @@
 
 admin plugin for wiSH (https://github.com/sgohl/wiSH)
 
-- roles and role management ui
+> roles and role management ui
 
 ## install
 
