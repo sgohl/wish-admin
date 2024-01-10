@@ -27,3 +27,6 @@ TBD:
 
 Members are just strings and is directly compared to the session username.
 There is no members/users database or sync with any user directory like LDAP/AD, and I do not plan to implement this, as there are too many different user directory implementations out there.
+
+Note: You may add the `app/plug/admin` folder to your app`s `.gitignore` so it doesn't get git-pushed into your repo as it will cause collision when plug is also installed via Dockerfile.
+To force preliminary deletion, set `FORCE=true` before executing `wish plug`
