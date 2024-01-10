@@ -30,3 +30,5 @@ There is no members/users database or sync with any user directory like LDAP/AD,
 
 Note: You may add the `app/plug/admin` folder to your app's `.gitignore` so it doesn't get git-pushed into your repo as it will cause collision when plug is also installed via Dockerfile.
 To force preliminary deletion, set `FORCE=true` before executing `wish plug`
+
+see: https://github.com/sgohl/wish/wiki/Plugins#wish-cli
