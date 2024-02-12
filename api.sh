@@ -1,32 +1,32 @@
+Guard && Role admin || Redirect
+
 case ${COMMAND} in
 
-    admin)
+	users)
 
-		Role admin || Redirect
+		case ${ARGS} in
 
-		case $URI in
-
-			admin/users/rm)
+			rm)
 
 				if [[ -f ${DBF}/roles/${r}/${u} ]]
 				then
 					rm -f ${DBF}/roles/${r}/${u}
 				fi
-
+				
 				Redirect back
 
 			;;
 
-			admin/users/addrole)
+			addrole)
 
 				touch ${DBF}/roles/${v_role}/${v_user}
-
+	
 				Redirect back
-					
+
 			;;
 
 		esac
 
-    ;;
+	;;
 
 esac
