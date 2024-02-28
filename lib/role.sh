@@ -1,15 +1,16 @@
 Role() {
 
+	Guard || return 1
+ 
 	ROLE="${1}"
 
 	if [[ ! -f ${DBF}/roles/${ROLE}/$(LoggedUser) ]] || ! LoggedUser >/dev/null
 	then
 
+		echo "401 unauthorized."
 		return 1
 
 	fi
-
-	Guard || return 1
 
 }
 
