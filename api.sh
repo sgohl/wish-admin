@@ -1,4 +1,4 @@
-Guard && Role admin || Redirect
+Role admin || Redirect
 
 case ${COMMAND} in
 
