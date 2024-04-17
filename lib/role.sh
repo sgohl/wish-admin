@@ -1,6 +1,8 @@
 Role() {
 
 	Guard || return 1
+
+ 	Public
  
 	ROLE="${1}"
 
