@@ -29,4 +29,17 @@ case ${COMMAND} in
 
 	;;
 
+        roles)
+
+ 		case ${ARGS} in
+
+   			add)
+
+      				mkdir -p ${DBF}/roles/${v_role}
+	  
+	  		;;
+     		esac
+	
+ ;;
+
 esac
