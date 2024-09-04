@@ -20,7 +20,6 @@ case ${COMMAND} in
 			addrole)
 
 				touch ${DBF}/roles/${v_role}/${v_user}
-	
 				Redirect back
 
 			;;
@@ -36,6 +35,7 @@ case ${COMMAND} in
    			add)
 
       				mkdir -p ${DBF}/roles/${v_role}
+   				Redirect back
 	  
 	  		;;
      		esac
