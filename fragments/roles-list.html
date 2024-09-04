@@ -12,6 +12,11 @@
             echo "<tr>
                 <td>${ROLE}</td>
                 <td>$(RoleUsers ${ROLE})</td>
+                <td>
+                    <a href="$(echo '/api/admin/roles/rm?role='"${ROLE}"'&u='"${MEMBER}")">
+                        DELETE
+                    </a>
+                </td>
             </tr>
             "
         done
