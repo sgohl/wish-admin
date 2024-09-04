@@ -38,6 +38,13 @@ case ${COMMAND} in
    				Redirect back
 	  
 	  		;;
+
+			rm)
+
+   				rm -rf ${DBF}/roles/${v_role}
+   				Redirect back
+			
+			;;
      		esac
 	
  ;;
